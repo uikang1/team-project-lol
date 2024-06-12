@@ -35,7 +35,7 @@ const ChampionSectionList = () => {
                     {lineimgdata.map((champion, index) => (
                         <CategoryItem key={index} onClick={() => handleCategoryClick(champion)}>
                             <CategoryImage
-                                src={`./images/content/main/line${index + 1}.png`}
+                                src={`../images/content/main/line${index + 1}.png`}
                                 alt=""
                             />
                             <strong>{champion.position}</strong>

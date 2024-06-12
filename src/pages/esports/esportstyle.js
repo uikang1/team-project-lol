@@ -9,8 +9,7 @@ export const EsportWrap = styled.div`
 `;
 
 export const EsportInner = styled.div`
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 100px 0;
     width: 1400px;
 `;
 

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import EsportList from '../../components/esports/EsportList';
-import { Esporinner, EsportTop, EsportWrap } from './esportstyle';
+import { EsportInner, EsportTop, EsportWrap } from './esportstyle';
 
 const Esport = () => {
     const focus = () => {
@@ -19,9 +19,9 @@ const Esport = () => {
                 <p>전 세계를 무대로 펼쳐지는 리그 오브 레전드의 e스포츠 소식</p>
             </EsportTop>
             <div>
-                <Esporinner>
+                <EsportInner>
                     <EsportList />
-                </Esporinner>
+                </EsportInner>
             </div>
         </EsportWrap>
     );

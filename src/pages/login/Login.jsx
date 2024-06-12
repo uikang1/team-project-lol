@@ -33,7 +33,7 @@ const Login = () => {
             <LoginWrap>
                 <h1>
                     <Link to={'/'}>
-                        <img src="./images/content/login/lol_logo.png" alt="" />
+                        <img src="../images/content/login/lol_logo.png" alt="" />
                     </Link>
                 </h1>
 

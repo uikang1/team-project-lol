@@ -12,12 +12,13 @@ const NoticeItem = ({ data }) => {
     return (
         <ListItem>
             <NoticeLink href={data.link}>
-                <Image src={data.imgurl} alt={data.title} />
+                <p>
+                    <Image src={data.imgurl} alt={data.title} />
+                </p>
                 <Info>
-                    <h1>공지사항</h1>
+                    <strong>공지사항</strong>
                     <Month>{data.month}</Month>
                     <Title>{data.title}</Title>
-                    <Text>{data.text}</Text>
                 </Info>
             </NoticeLink>
         </ListItem>

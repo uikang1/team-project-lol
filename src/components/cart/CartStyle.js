@@ -9,7 +9,7 @@ export const EmptyCartWrap = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 48% 0;
-    background-image: url('./images/content/store/decoImg.png');
+    background-image: url('../images/content/store/decoImg.png');
     .emptyCart {
         width: 700px;
         height: 300px;
@@ -91,7 +91,7 @@ export const CartItemWrap = styled.li`
                 text-indent: 15px;
                 background-repeat: no-repeat;
                 background-position: 30% 46%;
-                background-image: url('./images/content/store/store_rp.jpeg');
+                background-image: url('../images/content/store/store_rp.jpeg');
             }
         }
     }

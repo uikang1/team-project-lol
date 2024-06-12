@@ -32,7 +32,7 @@ const NewsSectioncontainer = () => {
                         href="https://www.leagueoflegends.com/ko-kr/news/game-updates/patch-14-9-notes/"
                         target="blank"
                     >
-                        <NewsImage src="./images/content/main/newsimg1.jpg" alt="News 1" />
+                        <NewsImage src="../images/content/main/newsimg1.jpg" alt="News 1" />
 
                         <b>게임업데이트 | </b>
                         <span>지난달</span>
@@ -42,7 +42,7 @@ const NewsSectioncontainer = () => {
                 </NewsItem>
                 <NewsItem>
                     <NewsImage
-                        src="./images/content/main/newsimg2.jpg"
+                        src="../images/content/main/newsimg2.jpg"
                         alt="News 2"
                         onClick={() => openModal('BSRq-_p9I5Q')}
                     />
@@ -57,7 +57,7 @@ const NewsSectioncontainer = () => {
                         href="https://www.leagueoflegends.com/ko-kr/news/dev/dev-arena/"
                         target="blank"
                     >
-                        <NewsImage src="./images/content/main/newsimg3.jpg" alt="News 3" />
+                        <NewsImage src="../images/content/main/newsimg3.jpg" alt="News 3" />
 
                         <b>개발자 블로그 | </b>
                         <span>12개월 전</span>

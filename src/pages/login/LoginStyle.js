@@ -6,7 +6,7 @@ export const JoinWrap = styled.div`
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
-    background-image: url('./images/content/login/wallpaper.jpg');
+    background-image: url('../images/content/login/wallpaper.jpg');
     display: flex;
     align-items: center;
     position: relative;
@@ -97,7 +97,7 @@ export const LoginWrap = styled.div`
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
-    background-image: url('./images/content/login/wallpaper5.jpg');
+    background-image: url('../images/content/login/wallpaper5.jpg');
     display: flex;
     align-items: center;
     position: relative;
@@ -169,7 +169,7 @@ export const LogoutWrap = styled.div`
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
-    background-image: url('./images/content/login/wallpaper2.jpg');
+    background-image: url('../images/content/login/wallpaper2.jpg');
     display: flex;
     align-items: center;
     position: relative;
@@ -214,7 +214,7 @@ export const RealLogoutWrap = styled.div`
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
-    background-image: url('./images/content/login/wallpaper2.jpg');
+    background-image: url('../images/content/login/wallpaper2.jpg');
     display: flex;
     align-items: center;
     position: relative;

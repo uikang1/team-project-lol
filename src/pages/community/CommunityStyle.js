@@ -6,7 +6,7 @@ export const CommunityWrap = styled.div`
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./images/common/content_bg.jpg');
+    background-image: url('../images/common/content_bg.jpg');
     h2 {
         color: #fff;
         padding: 50px 0 30px;
@@ -187,7 +187,7 @@ export const CommunityAddWrap = styled.div`
     background-position: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('./images/common/content_bg.jpg');
+    background-image: url('../images/common/content_bg.jpg');
     h2 {
         text-align: center;
         font-size: 40px;

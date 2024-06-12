@@ -9,7 +9,7 @@ const Footer = () => {
                 <FooterSite />
                 <p className="footerLogo">
                     <a href="#">
-                        <img src="./images/common/footerLogo.png" alt="RiotGames" />
+                        <img src="../images/common/footerLogo.png" alt="RiotGames" />
                     </a>
                 </p>
                 <p>
@@ -30,7 +30,7 @@ const Footer = () => {
                 <p>통신판매업신고 : 2011-서울강남-02718</p>
                 <FooterList />
                 <div className="kr-Rating">
-                    <img src="./images/common/kr-Rating.png" alt="kr-Rating" />
+                    <img src="../images/common/kr-Rating.png" alt="kr-Rating" />
                 </div>
             </div>
         </FooterContainer>

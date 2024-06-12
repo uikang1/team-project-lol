@@ -55,7 +55,7 @@ export const Section = styled.section`
 
 export const ArenaSection = styled(Section)`
     height: 640px;
-    background-image: url('./images/content/main/gamemod.png');
+    background-image: url('../images/content/main/gamemod.png');
     color: white;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ export const ChampionSection = styled(Section)`
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
-    background-image: url('./images/content/main/img2.png');
+    background-image: url('../images/content/main/img2.png');
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -236,7 +236,7 @@ export const MapSections = styled.section`
     height: 1000px;
     box-sizing: border-box;
     text-align: center;
-    background-image: url('./images/content/main/gameplayback.png');
+    background-image: url('../images/content/main/gameplayback.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -373,7 +373,7 @@ export const InfoItems = styled.div`
 `;
 
 export const InfoItem = styled.div`
-    width: 35%;
+    width: 30%;
     text-align: left;
     cursor: pointer;
     .txt {

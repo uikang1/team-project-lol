@@ -1,7 +1,7 @@
 const EsportData = [
     {
         id: 1,
-        imgurl: './images/content/esports/img1.png',
+        imgurl: '../images/content/esports/img1.png',
         month: '어제',
         title: '전설의 전당: Faker 트레일러',
         text: '전설이 되기 위해 필요한 건 무엇일까요? 지금 바로 전체 영상 트레일러를 감상하세요!',
@@ -9,7 +9,7 @@ const EsportData = [
     },
     {
         id: 2,
-        imgurl: './images/content/esports/img2.png',
+        imgurl: '../images/content/esports/img2.png',
         month: '어제',
         title: '계속 길을 걸으며 | 2024 MSI',
         text: 'G2는 TES의 땅에서 이변을 일으킬 수 있을까요?',
@@ -17,7 +17,7 @@ const EsportData = [
     },
     {
         id: 3,
-        imgurl: './images/content/esports/img3.png',
+        imgurl: '../images/content/esports/img3.png',
         month: '어제',
         title: '최고의 플레이 5선 | 브래킷 스테이지 1주 차',
         text: '최고의 플레이를 감상하세요!.',
@@ -25,7 +25,7 @@ const EsportData = [
     },
     {
         id: 4,
-        imgurl: './images/content/esports/img4.png',
+        imgurl: '../images/content/esports/img4.png',
         month: '어제',
         title: '네 수호자의 탄생 | MSI 2024',
         text: '새로운 도전자 넷이 청두로 옵니다. 플레이-인 스테이지를 견뎌낸 4팀이 이들을 맞이합니다.',
@@ -33,7 +33,7 @@ const EsportData = [
     },
     {
         id: 5,
-        imgurl: './images/content/esports/img5.png',
+        imgurl: '../images/content/esports/img5.png',
         month: '어제',
         title: '최고의 플레이 5선 | 플레이-인 스테이지',
         text: '최고의 플레이들을 다시 한번 보세요!',
@@ -41,7 +41,7 @@ const EsportData = [
     },
     {
         id: 6,
-        imgurl: './images/content/esports/img6.png',
+        imgurl: '../images/content/esports/img6.png',
         month: '어제',
         title: '변화한 맵을 프로처럼 이용하는 법!',
         text: '대규모 변화를 거친 맵은 전 세계 프로 경기에 어떤 영향을 미쳤을까요?',
@@ -49,7 +49,7 @@ const EsportData = [
     },
     {
         id: 7,
-        imgurl: './images/content/esports/img7.png',
+        imgurl: '../images/content/esports/img7.png',
         month: '어제',
         title: 'LPL을 분석하라 with ???',
         text: '시크릿 보드룸 LPL',
@@ -57,7 +57,7 @@ const EsportData = [
     },
     {
         id: 8,
-        imgurl: './images/content/esports/img8.png',
+        imgurl: '../images/content/esports/img8.png',
         month: '어제',
         title: 'LEC를 분석하라 with 노아',
         text: '시크릿 보드룸 LEC',
@@ -65,7 +65,7 @@ const EsportData = [
     },
     {
         id: 9,
-        imgurl: './images/content/esports/img9.png',
+        imgurl: '../images/content/esports/img9.png',
         month: '어제',
         title: 'LCS를 분석하라 with 엄티',
         text: '24 시크릿보드룸 - LCS',
@@ -73,7 +73,7 @@ const EsportData = [
     },
     {
         id: 10,
-        imgurl: './images/content/esports/img10.png',
+        imgurl: '../images/content/esports/img10.png',
         month: '어제',
         title: 'Moments & Memories',
         text: 'PO Moments & Memories',
@@ -81,7 +81,7 @@ const EsportData = [
     },
     {
         id: 11,
-        imgurl: './images/content/esports/img11.png',
+        imgurl: '../images/content/esports/img11.png',
         month: '어제',
         title: '회당 300골드짜리 방방이',
         text: 'msi madmovie',
@@ -89,7 +89,7 @@ const EsportData = [
     },
     {
         id: 12,
-        imgurl: './images/content/esports/img12.png',
+        imgurl: '../images/content/esports/img12.png',
         month: '어제',
         title: '6월 PC방 혜택을 소개합니다',
         text: 'PC방에서 무료로 스킨 15종을 체험해보세요!',
@@ -97,7 +97,7 @@ const EsportData = [
     },
     {
         id: 13,
-        imgurl: './images/content/esports/img13.jpg',
+        imgurl: '../images/content/esports/img13.jpg',
         month: '어제',
         title: '개 인기 있는 아나운서',
         text: '내이름은 이은빈 2화',
@@ -105,7 +105,7 @@ const EsportData = [
     },
     {
         id: 14,
-        imgurl: './images/content/esports/img14.jpg',
+        imgurl: '../images/content/esports/img14.jpg',
         month: '어제',
         title: '2024 MSI 진행 방식을 확인하세요',
         text: '2024 MSI가 시작됐습니다. lolesports.com에서 MSI를 시청하세요!',
@@ -113,7 +113,7 @@ const EsportData = [
     },
     {
         id: 15,
-        imgurl: './images/content/esports/img15.jpg',
+        imgurl: '../images/content/esports/img15.jpg',
         month: '어제',
         title: '2024 MSI 플레이-인 스테이지 오프닝 티저',
         text: 'Enter the Unknown. 오늘 2024 MSI의 막이 오릅니다!',
@@ -121,7 +121,7 @@ const EsportData = [
     },
     {
         id: 16,
-        imgurl: './images/content/esports/img16.jpg',
+        imgurl: '../images/content/esports/img16.jpg',
         month: '어제',
         title: '리 신 챔피언 테마',
         text: '눈먼 수도승 리 신의 공식 테마와 새로운 외형으로 실력을 시험해 보세요.',
@@ -129,7 +129,7 @@ const EsportData = [
     },
     {
         id: 17,
-        imgurl: './images/content/esports/img17.jpg',
+        imgurl: '../images/content/esports/img17.jpg',
         month: '어제',
         title: '시청하고 MSI 드롭 획득하기',
         text: '이 유용한 가이드를 통해 드롭을 놓치지 않고 모두 받아 보세요.',
@@ -137,7 +137,7 @@ const EsportData = [
     },
     {
         id: 18,
-        imgurl: './images/content/esports/img18.jpg',
+        imgurl: '../images/content/esports/img18.jpg',
         month: '어제',
         title: '2024 MSI 소개',
         text: '청두에서 열리는 2024 리그 오브 레전드 미드시즌 인비테이셔널에 대해 자세히 알아보세요.',
@@ -145,7 +145,7 @@ const EsportData = [
     },
     {
         id: 19,
-        imgurl: './images/content/esports/img19.png',
+        imgurl: '../images/content/esports/img19.png',
         month: '어제',
         title: 'Become the Unknown | MSI 2024',
         text: '누가 맞설 텐가?',
@@ -153,7 +153,7 @@ const EsportData = [
     },
     {
         id: 20,
-        imgurl: './images/content/esports/img20.png',
+        imgurl: '../images/content/esports/img20.png',
         month: '어제',
         title: '2024 MSI 진행 방식 안내',
         text: '플레이-인과 브래킷 스테이지 등에 대해 알려 드립니다.',
@@ -161,7 +161,7 @@ const EsportData = [
     },
     {
         id: 21,
-        imgurl: './images/content/esports/img21.png',
+        imgurl: '../images/content/esports/img21.png',
         month: '어제',
         title: '최신 e스포츠 뉴스',
         text: '최신 소식과 결과를 확인해 보세요.',
@@ -169,7 +169,7 @@ const EsportData = [
     },
     {
         id: 22,
-        imgurl: './images/content/esports/img22.jpg',
+        imgurl: '../images/content/esports/img22.jpg',
         month: '어제',
         title: '2024 스프링 결승전 매치 하이라이트',
         text: '2024 스프링 결승전 매치 하이라이트',
@@ -177,7 +177,7 @@ const EsportData = [
     },
     {
         id: 23,
-        imgurl: './images/content/esports/img23.png',
+        imgurl: '../images/content/esports/img23.png',
         month: '어제',
         title: '2024 스프링 결승전 타이틀',
         text: '2024 스프링 결승전 타이틀',
@@ -185,7 +185,7 @@ const EsportData = [
     },
     {
         id: 24,
-        imgurl: './images/content/esports/img24.jpg',
+        imgurl: '../images/content/esports/img24.jpg',
         month: '어제',
         title: '2024 스프링을 마치며',
         text: '24 spring ending',

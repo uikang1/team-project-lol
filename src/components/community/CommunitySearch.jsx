@@ -1,8 +1,8 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { CommunitySearchWrap, ResetIcon } from '../../pages/community/CommunityStyle';
 import { useDispatch, useSelector } from 'react-redux';
 import { positionFilter, resetFilter, tierFilter } from '../../store/modules/communitySlice';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const CommunitySearch = () => {
     const [btn, setBtn] = useState(null);
@@ -22,7 +22,7 @@ const CommunitySearch = () => {
 
     const onWrite = () => {
         if (!authed) {
-            alert('로그인을 해주세요.');
+            alert('로그인 페이지로 이동합니다.');
             navigate('/login');
         } else {
             navigate('/communityadd');
@@ -54,37 +54,37 @@ const CommunitySearch = () => {
                         onClick={() => (dispatch(positionFilter('all')), setBtn(0))}
                         className={btn === 0 ? 'on' : ''}
                     >
-                        <img src="./images/content/community/all.svg" alt="all" />
+                        <img src="../images/content/community/all.svg" alt="all" />
                     </button>
                     <button
                         onClick={() => (dispatch(positionFilter('top')), setBtn(1))}
                         className={btn === 1 ? 'on' : ''}
                     >
-                        <img src="./images/content/community/top.svg" alt="top" />
+                        <img src="../images/content/community/top.svg" alt="top" />
                     </button>
                     <button
                         onClick={() => (dispatch(positionFilter('jungle')), setBtn(2))}
                         className={btn === 2 ? 'on' : ''}
                     >
-                        <img src="./images/content/community/jungle.svg" alt="jungle" />
+                        <img src="../images/content/community/jungle.svg" alt="jungle" />
                     </button>
                     <button
                         onClick={() => (dispatch(positionFilter('mid')), setBtn(3))}
                         className={btn === 3 ? 'on' : ''}
                     >
-                        <img src="./images/content/community/mid.svg" alt="mid" />
+                        <img src="../images/content/community/mid.svg" alt="mid" />
                     </button>
                     <button
                         onClick={() => (dispatch(positionFilter('bottom')), setBtn(4))}
                         className={btn === 4 ? 'on' : ''}
                     >
-                        <img src="./images/content/community/bottom.svg" alt="bottom" />
+                        <img src="../images/content/community/bottom.svg" alt="bottom" />
                     </button>
                     <button
                         onClick={() => (dispatch(positionFilter('support')), setBtn(5))}
                         className={btn === 5 ? 'on' : ''}
                     >
-                        <img src="./images/content/community/support.svg" alt="support" />
+                        <img src="../images/content/community/support.svg" alt="support" />
                     </button>
                 </p>
                 <p className="reset">

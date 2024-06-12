@@ -18,12 +18,12 @@ const CommunityItem = ({ item }) => {
             <CommunityLi>
                 <h3>{title}</h3>
                 <p className="tier">
-                    <img src={`./images/content/community/${tier}.png`} alt={tier} />
+                    <img src={`../images/content/community/${tier}.png`} alt={tier} />
                 </p>
                 <div className="position">
                     <p>
                         <img
-                            src={`./images/content/community/${myposition}_f.svg`}
+                            src={`../images/content/community/${myposition}_f.svg`}
                             alt={myposition}
                         />
                         <span>{name}</span>
@@ -31,7 +31,7 @@ const CommunityItem = ({ item }) => {
                     <p>
                         <span>찾고있는포지션</span>
                         <img
-                            src={`./images/content/community/${findposition}_f.svg`}
+                            src={`../images/content/community/${findposition}_f.svg`}
                             alt={findposition}
                         />
                     </p>

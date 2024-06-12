@@ -6,7 +6,7 @@ export const DetailWrap = styled.div`
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./images/content/store/store_bg.jpeg');
+    background-image: url('../images/content/store/store_bg.jpeg');
 
     h1 {
         text-align: center;
@@ -126,7 +126,7 @@ export const DetailWrap = styled.div`
                         background-color: #020b14;
                         background-repeat: no-repeat;
                         background-position: 38% 46%;
-                        background-image: url('./images/content/store/store_rp.jpeg');
+                        background-image: url('../images/content/store/store_rp.jpeg');
                     }
                 }
                 .notAuthed {
@@ -147,7 +147,7 @@ export const DetailWrap = styled.div`
                         background-color: #020b14;
                         background-repeat: no-repeat;
                         background-position: 38% 46%;
-                        background-image: url('./images/content/store/store_rp.jpeg');
+                        background-image: url('../images/content/store/store_rp.jpeg');
                     }
                 }
             }
@@ -285,6 +285,6 @@ export const SkinItemWrap = styled.li`
         font-size: 25px;
         background-repeat: no-repeat;
         background-position: 0 50%;
-        background-image: url('./images/content/store/store_rp.jpeg');
+        background-image: url('../images/content/store/store_rp.jpeg');
     }
 `;

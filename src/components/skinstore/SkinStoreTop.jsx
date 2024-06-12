@@ -34,7 +34,7 @@ const SkinStoreTop = () => {
             <StoreTopWrap className="top">
                 <Link to="/store">
                     <h1>
-                        <img src="./images/content/store/skin_store_logo.png" alt="logo" />
+                        <img src="../images/content/store/skin_store_logo.png" alt="logo" />
                     </h1>
                 </Link>
                 <div className="search">

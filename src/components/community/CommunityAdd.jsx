@@ -74,7 +74,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="myposition">
-                            <img src="./images/content/community/top_f.svg" alt="" />
+                            <img src="../images/content/community/top_f.svg" alt="" />
                         </label>
                         <input
                             type="radio"
@@ -84,7 +84,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="">
-                            <img src="./images/content/community/jungle_f.svg" alt="" />
+                            <img src="../images/content/community/jungle_f.svg" alt="" />
                         </label>
                         <input
                             type="radio"
@@ -94,7 +94,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="">
-                            <img src="./images/content/community/mid_f.svg" alt="" />
+                            <img src="../images/content/community/mid_f.svg" alt="" />
                         </label>
                         <input
                             type="radio"
@@ -104,7 +104,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="">
-                            <img src="./images/content/community/bottom_f.svg" alt="" />
+                            <img src="../images/content/community/bottom_f.svg" alt="" />
                         </label>
                         <input
                             type="radio"
@@ -114,7 +114,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="">
-                            <img src="./images/content/community/support_f.svg" alt="" />
+                            <img src="../images/content/community/support_f.svg" alt="" />
                         </label>
                     </p>
 
@@ -128,7 +128,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="myposition">
-                            <img src="./images/content/community/top_f.svg" alt="" />
+                            <img src="../images/content/community/top_f.svg" alt="" />
                         </label>
                         <input
                             type="radio"
@@ -138,7 +138,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="">
-                            <img src="./images/content/community/jungle_f.svg" alt="" />
+                            <img src="../images/content/community/jungle_f.svg" alt="" />
                         </label>
                         <input
                             type="radio"
@@ -148,7 +148,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="">
-                            <img src="./images/content/community/mid_f.svg" alt="" />
+                            <img src="../images/content/community/mid_f.svg" alt="" />
                         </label>
                         <input
                             type="radio"
@@ -158,7 +158,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="">
-                            <img src="./images/content/community/bottom_f.svg" alt="" />
+                            <img src="../images/content/community/bottom_f.svg" alt="" />
                         </label>
                         <input
                             type="radio"
@@ -168,7 +168,7 @@ const CommunityAdd = () => {
                             onChange={onChange}
                         />
                         <label htmlFor="">
-                            <img src="./images/content/community/support_f.svg" alt="" />
+                            <img src="../images/content/community/support_f.svg" alt="" />
                         </label>
                     </p>
                     <p>

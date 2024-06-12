@@ -24,7 +24,7 @@ const StoreCart = () => {
             <div className="inner2">
                 <Link to="/">
                     <h1>
-                        <img src="./images/content/store/lol_logo.png" alt="" />
+                        <img src="../images/content/store/lol_logo.png" alt="" />
                     </h1>
                 </Link>
                 <Link to="/store">

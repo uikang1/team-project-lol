@@ -21,7 +21,7 @@ const TopVideo = () => {
                 />
             </VideoBackground>
             <h2>
-                <img src="./images/common/lol_logo.png" alt="League of Legends" />
+                <img src="../images/common/lol_logo.png" alt="League of Legends" />
             </h2>
             <PlayButton onClick={onGo}>무료로 플레이하기</PlayButton>
         </Top>

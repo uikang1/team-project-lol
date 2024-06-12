@@ -51,7 +51,7 @@ const MapSection = () => {
                                     <Li key={index} onClick={() => handleLiClick(video)}>
                                         <p>
                                             <img
-                                                src={`./images/content/main/playimg${
+                                                src={`../images/content/main/playimg${
                                                     index + 1
                                                 }.jpg`}
                                                 alt="playmodes"

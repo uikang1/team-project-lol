@@ -24,7 +24,7 @@ const SkinDetail = () => {
     }, []);
 
     const goLogin = () => {
-        alert('로그인 페이지로 이동합니다');
+        alert('로그인 페이지로 이동합니다.');
         navigate('/login');
     };
 
@@ -34,7 +34,7 @@ const SkinDetail = () => {
                 <div className="inner2">
                     <Link to="/store">
                         <h1>
-                            <img src="./images/content/store/skin_store_logo.png" alt="logo" />
+                            <img src="../images/content/store/skin_store_logo.png" alt="logo" />
                         </h1>
                     </Link>
 

@@ -18,7 +18,7 @@ const Header = () => {
             <div className="inner">
                 <h1>
                     <Link to="/">
-                        <img src="./images/common/headerLogo.png" alt="LeagueOfLegends" />
+                        <img src="../images/common/headerLogo.png" alt="LeagueOfLegends" />
                     </Link>
                 </h1>
                 <Nav onMenu={onMenu} onShow={onShow} />

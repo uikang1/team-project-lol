@@ -5,7 +5,7 @@ export const CartWrap = styled.div`
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./images/content/store/store_bg.jpeg');
+    background-image: url('../images/content/store/store_bg.jpeg');
     padding-bottom: 100px;
     h1 {
         text-align: center;
